@@ -1,0 +1,6 @@
+{
+  "hello-world-queue": {
+    "pikkuFuncName": "queueWorker",
+    "queueName": "hello-world-queue"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "queueWorker": {
+    "pikkuFuncName": "queueWorker",
+    "inputSchemaName": "QueueWorkerInput",
+    "outputSchemaName": "QueueWorkerOutput"
+  },
+  "queueWorkerWithMiddleware": {
+    "pikkuFuncName": "queueWorkerWithMiddleware",
+    "inputSchemaName": "QueueWorkerWithMiddlewareInput",
+    "outputSchemaName": "QueueWorkerWithMiddlewareOutput"
+  }
+}

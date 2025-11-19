@@ -1,0 +1,45 @@
+{
+  "queueWorker": {
+    "pikkuFuncName": "queueWorker",
+    "name": "queueWorker",
+    "services": {
+      "optimized": true,
+      "services": []
+    },
+    "inputSchemaName": "QueueWorkerInput",
+    "outputSchemaName": "QueueWorkerOutput",
+    "inputs": [
+      "QueueWorkerInput"
+    ],
+    "outputs": [
+      "QueueWorkerOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "queueWorkerWithMiddleware": {
+    "pikkuFuncName": "queueWorkerWithMiddleware",
+    "name": "queueWorkerWithMiddleware",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "inputSchemaName": "QueueWorkerWithMiddlewareInput",
+    "outputSchemaName": "QueueWorkerWithMiddlewareOutput",
+    "inputs": [
+      "QueueWorkerWithMiddlewareInput"
+    ],
+    "outputs": [
+      "QueueWorkerWithMiddlewareOutput"
+    ],
+    "middleware": [
+      {
+        "type": "wire",
+        "name": "loggingMiddleware",
+        "inline": false
+      }
+    ],
+    "isDirectFunction": false
+  }
+}
