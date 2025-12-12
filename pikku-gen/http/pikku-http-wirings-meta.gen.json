@@ -1,0 +1,27 @@
+{
+  "get": {},
+  "post": {
+    "/rpc/:rpcName": {
+      "pikkuFuncName": "rpcCaller",
+      "route": "/rpc/:rpcName",
+      "method": "post",
+      "params": [
+        "rpcName"
+      ]
+    }
+  },
+  "put": {},
+  "delete": {},
+  "head": {},
+  "patch": {},
+  "options": {
+    "/rpc/:rpcName": {
+      "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L32C9",
+      "route": "/rpc/:rpcName",
+      "method": "options",
+      "params": [
+        "rpcName"
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "processReminder": {
+    "pikkuFuncName": "processReminder",
+    "name": "processReminder",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "inputSchemaName": "ProcessReminderInput",
+    "outputSchemaName": "ProcessReminderOutput",
+    "inputs": [
+      "ProcessReminderInput"
+    ],
+    "outputs": [
+      "ProcessReminderOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "name": "rpcCaller",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": [],
+    "isDirectFunction": false
+  },
+  "pikkuFn_src_wirings_rpc_wiring_ts_L32C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L32C9",
+    "name": "pikkuFn_src_wirings_rpc_wiring_ts_L32C9",
+    "services": {
+      "optimized": true,
+      "services": []
+    },
+    "inputSchemaName": "PikkuFn_src_wirings_rpc_wiring_ts_L32C9Input",
+    "outputSchemaName": null,
+    "inputs": [
+      "PikkuFn_src_wirings_rpc_wiring_ts_L32C9Input"
+    ],
+    "outputs": [],
+    "isDirectFunction": true
+  }
+}

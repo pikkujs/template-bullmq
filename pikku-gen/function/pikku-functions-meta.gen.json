@@ -1,0 +1,34 @@
+{
+  "processReminder": {
+    "pikkuFuncName": "processReminder",
+    "name": "processReminder",
+    "inputSchemaName": "ProcessReminderInput",
+    "outputSchemaName": "ProcessReminderOutput",
+    "inputs": [
+      "ProcessReminderInput"
+    ],
+    "outputs": [
+      "ProcessReminderOutput"
+    ]
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "name": "rpcCaller",
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": []
+  },
+  "pikkuFn_src_wirings_rpc_wiring_ts_L32C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L32C9",
+    "name": "pikkuFn_src_wirings_rpc_wiring_ts_L32C9",
+    "inputSchemaName": "PikkuFn_src_wirings_rpc_wiring_ts_L32C9Input",
+    "outputSchemaName": null,
+    "inputs": [
+      "PikkuFn_src_wirings_rpc_wiring_ts_L32C9Input"
+    ],
+    "outputs": []
+  }
+}

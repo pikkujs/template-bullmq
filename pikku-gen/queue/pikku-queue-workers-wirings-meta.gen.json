@@ -1,0 +1,6 @@
+{
+  "todo-reminders": {
+    "pikkuFuncName": "processReminder",
+    "queueName": "todo-reminders"
+  }
+}
