@@ -1,0 +1,8 @@
+{
+  "processReminder": "processReminder",
+  "greet": "greet",
+  "remoteGreet": "remoteGreet",
+  "testEventTrigger": "testEventTrigger",
+  "onTestEvent": "onTestEvent",
+  "rpcCaller": "rpcCaller"
+}
