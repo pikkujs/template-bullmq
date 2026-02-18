@@ -1,0 +1,153 @@
+{
+  "processReminder": {
+    "pikkuFuncName": "processReminder",
+    "name": "processReminder",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "ProcessReminderInput",
+    "outputSchemaName": "ProcessReminderOutput",
+    "inputs": [
+      "ProcessReminderInput"
+    ],
+    "outputs": [
+      "ProcessReminderOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "greet": {
+    "pikkuFuncName": "greet",
+    "name": "greet",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "variables"
+      ]
+    },
+    "inputSchemaName": "GreetInput",
+    "outputSchemaName": "GreetOutput",
+    "inputs": [
+      "GreetInput"
+    ],
+    "outputs": [
+      "GreetOutput"
+    ],
+    "expose": true,
+    "isDirectFunction": false
+  },
+  "remoteGreet": {
+    "pikkuFuncName": "remoteGreet",
+    "name": "remoteGreet",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "RemoteGreetInput",
+    "outputSchemaName": "RemoteGreetOutput",
+    "inputs": [
+      "RemoteGreetInput"
+    ],
+    "outputs": [
+      "RemoteGreetOutput"
+    ],
+    "isDirectFunction": false
+  },
+  "testEventTrigger": {
+    "pikkuFuncName": "testEventTrigger",
+    "name": "testEventTrigger",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger"
+      ]
+    },
+    "usedWires": [
+      "trigger"
+    ],
+    "inputSchemaName": "TestEventTriggerInput",
+    "outputSchemaName": "TestEventTriggerOutput",
+    "inputs": [
+      "TestEventTriggerInput"
+    ],
+    "outputs": [
+      "TestEventTriggerOutput"
+    ],
+    "isDirectFunction": true
+  },
+  "onTestEvent": {
+    "pikkuFuncName": "onTestEvent",
+    "name": "onTestEvent",
+    "services": {
+      "optimized": true,
+      "services": [
+        "logger",
+        "todoStore"
+      ]
+    },
+    "inputSchemaName": "OnTestEventInput",
+    "outputSchemaName": "OnTestEventOutput",
+    "inputs": [
+      "OnTestEventInput"
+    ],
+    "outputs": [
+      "OnTestEventOutput"
+    ],
+    "internal": true,
+    "isDirectFunction": false
+  },
+  "pikkuFn_src_wirings_graph_wiring_ts_L8C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_graph_wiring_ts_L8C9",
+    "name": "/workflow/review",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "inputSchemaName": null,
+    "outputSchemaName": null,
+    "inputs": [],
+    "outputs": []
+  },
+  "rpcCaller": {
+    "pikkuFuncName": "rpcCaller",
+    "name": "rpcCaller",
+    "services": {
+      "optimized": false,
+      "services": []
+    },
+    "usedWires": [
+      "rpc"
+    ],
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": [],
+    "isDirectFunction": false
+  },
+  "pikkuFn_src_wirings_rpc_wiring_ts_L31C9": {
+    "pikkuFuncName": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "name": "pikkuFn_src_wirings_rpc_wiring_ts_L31C9",
+    "services": {
+      "optimized": true,
+      "services": []
+    },
+    "inputSchemaName": "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input",
+    "outputSchemaName": null,
+    "inputs": [
+      "PikkuFn_src_wirings_rpc_wiring_ts_L31C9Input"
+    ],
+    "outputs": [],
+    "isDirectFunction": true
+  }
+}
