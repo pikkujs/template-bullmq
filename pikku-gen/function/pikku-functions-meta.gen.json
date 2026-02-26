@@ -1,0 +1,148 @@
+{
+  "processReminder": {
+    "pikkuFuncId": "processReminder",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "processReminder",
+    "inputSchemaName": "ProcessReminderInput",
+    "outputSchemaName": "ProcessReminderOutput",
+    "inputs": [
+      "ProcessReminderInput"
+    ],
+    "outputs": [
+      "ProcessReminderOutput"
+    ],
+    "contractHash": "217d5eb242ed5517"
+  },
+  "testEventTrigger": {
+    "pikkuFuncId": "testEventTrigger",
+    "functionType": "user",
+    "funcWrapper": "pikkuTriggerFunc",
+    "sessionless": true,
+    "name": "testEventTrigger",
+    "inputSchemaName": "TestEventTriggerInput",
+    "outputSchemaName": "TestEventTriggerOutput",
+    "inputs": [
+      "TestEventTriggerInput"
+    ],
+    "outputs": [
+      "TestEventTriggerOutput"
+    ],
+    "contractHash": "a6d72d8f1dc4cde3"
+  },
+  "onTestEvent": {
+    "pikkuFuncId": "onTestEvent",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "onTestEvent",
+    "inputSchemaName": "OnTestEventInput",
+    "outputSchemaName": "OnTestEventOutput",
+    "inputs": [
+      "OnTestEventInput"
+    ],
+    "outputs": [
+      "OnTestEventOutput"
+    ],
+    "remote": true
+  },
+  "agentCaller": {
+    "pikkuFuncId": "agentCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentCaller",
+    "inputSchemaName": "AgentCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "76619abd99f23189"
+  },
+  "agentStreamCaller": {
+    "pikkuFuncId": "agentStreamCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentStreamCaller",
+    "inputSchemaName": "AgentStreamCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentStreamCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "0e5c814e26d3294f"
+  },
+  "agentApproveCaller": {
+    "pikkuFuncId": "agentApproveCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentApproveCaller",
+    "inputSchemaName": "AgentApproveCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentApproveCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "83a9293c4b51d65c"
+  },
+  "http:options:/rpc/agent/:agentName": {
+    "pikkuFuncId": "http:options:/rpc/agent/:agentName",
+    "functionType": "inline",
+    "name": "/rpc/agent/:agentName",
+    "inputSchemaName": "HttpOptionsRpcAgentAgentNameInput",
+    "outputSchemaName": "unknown",
+    "inputs": [
+      "HttpOptionsRpcAgentAgentNameInput"
+    ],
+    "outputs": [
+      "unknown"
+    ],
+    "contractHash": "b242e834cbd9375e"
+  },
+  "http:options:/rpc/agent/:agentName/stream": {
+    "pikkuFuncId": "http:options:/rpc/agent/:agentName/stream",
+    "functionType": "inline",
+    "name": "/rpc/agent/:agentName/stream",
+    "inputSchemaName": "HttpOptionsRpcAgentAgentNameStreamInput",
+    "outputSchemaName": "unknown",
+    "inputs": [
+      "HttpOptionsRpcAgentAgentNameStreamInput"
+    ],
+    "outputs": [
+      "unknown"
+    ],
+    "contractHash": "4eb55755bc996d55"
+  },
+  "rpcCaller": {
+    "pikkuFuncId": "rpcCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "rpcCaller",
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "f6901fd233740bf4"
+  },
+  "http:options:/rpc/:rpcName": {
+    "pikkuFuncId": "http:options:/rpc/:rpcName",
+    "functionType": "inline",
+    "name": "/rpc/:rpcName",
+    "inputSchemaName": "HttpOptionsRpcRpcNameInput",
+    "outputSchemaName": "unknown",
+    "inputs": [
+      "HttpOptionsRpcRpcNameInput"
+    ],
+    "outputs": [
+      "unknown"
+    ],
+    "contractHash": "6b32c899db6178ed"
+  }
+}

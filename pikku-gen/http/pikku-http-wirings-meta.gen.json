@@ -1,0 +1,126 @@
+{
+  "get": {
+    "/rpc/agent/:agentName/stream": {
+      "pikkuFuncId": "agentStreamCaller",
+      "route": "/rpc/agent/:agentName/stream",
+      "method": "get",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ],
+      "sse": true
+    }
+  },
+  "post": {
+    "/rpc/agent/:agentName": {
+      "pikkuFuncId": "agentCaller",
+      "route": "/rpc/agent/:agentName",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/agent/:agentName/approve": {
+      "pikkuFuncId": "agentApproveCaller",
+      "route": "/rpc/agent/:agentName/approve",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/:rpcName": {
+      "pikkuFuncId": "rpcCaller",
+      "route": "/rpc/:rpcName",
+      "method": "post",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    }
+  },
+  "put": {},
+  "delete": {},
+  "head": {},
+  "patch": {},
+  "options": {
+    "/rpc/agent/:agentName": {
+      "pikkuFuncId": "http:options:/rpc/agent/:agentName",
+      "route": "/rpc/agent/:agentName",
+      "method": "options",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/agent/:agentName/stream": {
+      "pikkuFuncId": "http:options:/rpc/agent/:agentName/stream",
+      "route": "/rpc/agent/:agentName/stream",
+      "method": "options",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/:rpcName": {
+      "pikkuFuncId": "http:options:/rpc/:rpcName",
+      "route": "/rpc/:rpcName",
+      "method": "options",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    }
+  }
+}
