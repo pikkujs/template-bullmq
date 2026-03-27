@@ -1,0 +1,109 @@
+{
+  "get": {},
+  "post": {
+    "/rpc/:rpcName": {
+      "pikkuFuncId": "rpcCaller",
+      "route": "/rpc/:rpcName",
+      "method": "post",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/agent/:agentName": {
+      "pikkuFuncId": "agentCaller",
+      "route": "/rpc/agent/:agentName",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/agent/:agentName/stream": {
+      "pikkuFuncId": "agentStreamCaller",
+      "route": "/rpc/agent/:agentName/stream",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ],
+      "sse": true
+    },
+    "/rpc/agent/:agentName/approve": {
+      "pikkuFuncId": "agentApproveCaller",
+      "route": "/rpc/agent/:agentName/approve",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    },
+    "/rpc/agent/:agentName/resume": {
+      "pikkuFuncId": "agentResumeCaller",
+      "route": "/rpc/agent/:agentName/resume",
+      "method": "post",
+      "params": [
+        "agentName"
+      ],
+      "tags": [
+        "pikku:public"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ],
+      "sse": true
+    }
+  },
+  "put": {},
+  "delete": {},
+  "head": {},
+  "patch": {},
+  "options": {
+    "/rpc/:rpcName": {
+      "pikkuFuncId": "http:options:/rpc/:rpcName",
+      "route": "/rpc/:rpcName",
+      "method": "options",
+      "params": [
+        "rpcName"
+      ],
+      "middleware": [
+        {
+          "type": "http",
+          "route": "*"
+        }
+      ]
+    }
+  }
+}

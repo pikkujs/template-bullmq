@@ -1,0 +1,150 @@
+{
+  "processReminder": {
+    "pikkuFuncId": "processReminder",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "processReminder",
+    "inputSchemaName": "ProcessReminderInput",
+    "outputSchemaName": "ProcessReminderOutput",
+    "inputs": [
+      "ProcessReminderInput"
+    ],
+    "outputs": [
+      "ProcessReminderOutput"
+    ],
+    "contractHash": "217d5eb242ed5517",
+    "inputHash": "47a055d6",
+    "outputHash": "e8a603ee"
+  },
+  "testEventTrigger": {
+    "pikkuFuncId": "testEventTrigger",
+    "functionType": "user",
+    "funcWrapper": "pikkuTriggerFunc",
+    "sessionless": true,
+    "name": "testEventTrigger",
+    "inputSchemaName": "TestEventTriggerInput",
+    "outputSchemaName": "TestEventTriggerOutput",
+    "inputs": [
+      "TestEventTriggerInput"
+    ],
+    "outputs": [
+      "TestEventTriggerOutput"
+    ],
+    "contractHash": "a6d72d8f1dc4cde3",
+    "inputHash": "8b4e8538",
+    "outputHash": "45e8d04f"
+  },
+  "onTestEvent": {
+    "pikkuFuncId": "onTestEvent",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "onTestEvent",
+    "inputSchemaName": "OnTestEventInput",
+    "outputSchemaName": "OnTestEventOutput",
+    "inputs": [
+      "OnTestEventInput"
+    ],
+    "outputs": [
+      "OnTestEventOutput"
+    ],
+    "remote": true
+  },
+  "rpcCaller": {
+    "pikkuFuncId": "rpcCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "rpcCaller",
+    "inputSchemaName": "RpcCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "RpcCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "f6901fd233740bf4",
+    "inputHash": "a69cacc4",
+    "outputHash": "629e0b5a"
+  },
+  "http:options:/rpc/:rpcName": {
+    "pikkuFuncId": "http:options:/rpc/:rpcName",
+    "functionType": "inline",
+    "name": "/rpc/:rpcName",
+    "inputSchemaName": "HttpOptionsRpcRpcNameInput",
+    "outputSchemaName": "unknown",
+    "inputs": [
+      "HttpOptionsRpcRpcNameInput"
+    ],
+    "outputs": [
+      "unknown"
+    ],
+    "contractHash": "6b32c899db6178ed",
+    "inputHash": "a77e6370",
+    "outputHash": "44812c8c"
+  },
+  "agentCaller": {
+    "pikkuFuncId": "agentCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentCaller",
+    "inputSchemaName": "AgentCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "76619abd99f23189",
+    "inputHash": "4d1eddbc",
+    "outputHash": "9a3af204"
+  },
+  "agentStreamCaller": {
+    "pikkuFuncId": "agentStreamCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentStreamCaller",
+    "inputSchemaName": "AgentStreamCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentStreamCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "0e5c814e26d3294f",
+    "inputHash": "773d4d52",
+    "outputHash": "641a263e"
+  },
+  "agentApproveCaller": {
+    "pikkuFuncId": "agentApproveCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentApproveCaller",
+    "inputSchemaName": "AgentApproveCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentApproveCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "83a9293c4b51d65c",
+    "inputHash": "f1628b7c",
+    "outputHash": "ef71f08a"
+  },
+  "agentResumeCaller": {
+    "pikkuFuncId": "agentResumeCaller",
+    "functionType": "user",
+    "funcWrapper": "pikkuSessionlessFunc",
+    "sessionless": true,
+    "name": "agentResumeCaller",
+    "inputSchemaName": "AgentResumeCallerInput",
+    "outputSchemaName": null,
+    "inputs": [
+      "AgentResumeCallerInput"
+    ],
+    "outputs": [],
+    "contractHash": "0648ffb2cfa9d861",
+    "inputHash": "f25b50dd",
+    "outputHash": "ee89e454"
+  }
+}
